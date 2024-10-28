@@ -3,18 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
     />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      main {        
+        padding: 10px;        
+        height: 100vh;
+      }
+      .gradient {
+        background: linear-gradient(237deg, #2b7ea9, #0a2431);
+        background-size: 400% 400%;
+
+        -webkit-animation: AnimationName 44s ease infinite;
+        -moz-animation: AnimationName 44s ease infinite;
+        animation: AnimationName 44s ease infinite;
+      }
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 84%}
+        50%{background-position:100% 17%}
+        100%{background-position:0% 84%}
+    }
+
+      section.hero {
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        
+      }
+      section.hero h1 {
+        margin: 0;
+        font-optical-sizing: auto;
+        font-size: xx-large;
+        font-weight: 100;
+        font-style: normal;
+      }
+      section.hero span {
+        font-weight: 300;
+        font-size: smaller;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+
+      section.hero img {
+        margin: 50px;
+        width: 70vh;
+        border: 2px solid #ffffff;
+        border-radius: 15px;
+        -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        box-shadow: 8px 8px 12px 0px rgb(0, 0, 0);
+      }
+    </style>
   </head>
   <body>
- 
+    <main class="gradient">
+      <section class="hero">
+        <h1>Zajazd Chariott</h1>
+        <span>Twoje miejsce na wypoczynek</span>
+        <img src="bias.jpg" alt="zdjęcie zajazdu chariott">
+      </section>      
+    </main>
   </body>
 </html>
