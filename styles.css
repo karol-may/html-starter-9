@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('wesela.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+main {              
+  height: 100vh;
+}
+.gradient {
+  background: linear-gradient(237deg, #286594, rgba(255,255,255,0.5));
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 44s ease infinite;
+  -moz-animation: AnimationName 44s ease infinite;
+  animation: AnimationName 44s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+
+section.hero {
+  padding-top: 10vh;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+section.hero h1 {
+  margin: 0;
+  font-optical-sizing: auto;
+  font-size: 4em;
+  font-weight: 100;
+  font-style: normal;
+}
+section.hero span {
+  font-weight: 300;
+  font-size: smaller;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+section.hero img {
+  margin: 50px;
+  width: 70vh;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 12px 0px rgb(0, 0, 0);
+}
+
+.newsletter {
+  margin-top: 20vh;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.newsletter form{
+  display: flex;  
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 4px 4px 12px 0px rgb(0, 0, 0);
+}
+
+.newsletter form input,
+.newsletter form button {
+  appearance: none;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #0a2431;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 10px;
+  background-color: #f2f3f4;
+  outline: none;
+}
+
+.newsletter form button { 
+  text-transform: uppercase;
+  appearance: none;
+  padding: 0 10px;  
+  font-size: 1em;
+  border-radius: 0px 5px 5px 0px; 
+  background-color: #0a2431;
+  color: #f2f3f4;
+}
+.newsletter form input {
+  font-size: 1em;
+  width: 200px;
+  border-radius: 5px 0px 0px 5px;
+}
