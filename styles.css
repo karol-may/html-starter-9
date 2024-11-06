@@ -115,3 +115,33 @@ section.hero img {
   width: 200px;
   border-radius: 5px 0px 0px 5px;
 }
+
+section.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.comments ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+}
+
+section.comments ul li {
+  width: 200px;
+  background-color: aqua;
+  padding: 10px;
+  margin: 5px;
+}
+
+section.comments ul li:first-child {
+  background-color: red;
+}
+
+section.comments ul li:nth-child(even) {
+  place-self: end;
+  background-color: green;
+}
