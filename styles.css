@@ -104,8 +104,14 @@ section.hero img {
   background-color: #0a2431;
   color: #f2f3f4;
 }
+.newsletter form button:hover {
+  background-color: #f2f3f4;
+  color:#0a2431;
+}
 .newsletter form input {
   font-size: 1em;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 200px;
   border-radius: 5px 0px 0px 5px;
 }
